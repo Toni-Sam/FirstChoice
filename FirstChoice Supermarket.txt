@@ -1,0 +1,28 @@
+FIRSTCHOICE SUPERMARKET:
+
+References:
+- Foodco
+- Justrite
+- Vanguard
+
+- Plan website structure and architecture
+- Plan for seamless experience across different devices & browsers.
+- Plan Security Measures like using HTTPS and integrate SSL Certificates
+- Consider User Experience: Prioritize intuitive and easy to navigate interface
+- Select a domain name and web hosting
+- Plan for Search Engine Optimization (SEO)
+- Use reliable web hosting service
+- Test your website thoroughly with tools like Bitbar, LoadNinja, LamdaTest
+- Optimize Image and Media Assets - Compressing Images, Optimizing file formats and reducing media file sizes
+- Utilize Micro interactions - Subtle & Engaging Animations, Visual Feedback.
+- Implement Responsive Topography - Using flexible font sizes, line spacing and responsive topography techniques.
+- Implement Caching Mechanisms - to reduce server load by caching frequently accessed data
+- Leverage Multimedia Elements like Videos, Infographics, and Interactive Elements.
+- Categorize Must-Have, Nice-to-Have features and Future Considerations to manage scope of project
+
+
+*- Add Line (border)
+
+- About Us page
+- FAQ page
+- Contact Us page

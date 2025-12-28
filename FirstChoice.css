@@ -1,0 +1,135 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    max-width: 100%;
+    margin: auto;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #BC4400;
+    height: 70px;
+    line-height: 70px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.links:hover {
+    color: #15a16a;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #BC4400;
+    height: auto;
+    line-height: 70px;
+}
+
+.AboutCompany {
+    display: flex;
+    flex-direction: column;
+}
+
+.InformationandSupport {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.InformationandSupport ul {
+    padding: 0;
+    margin: 0;
+    line-height: normal; 
+}
+
+.InformationandSupport li {
+    margin: 0;
+    line-height: 30px;
+    padding: 0;
+}
+
+.InformationandSupport h2 {
+    line-height: 40px; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hr {
+    background-color: #BC4400;
+    border: none;
+    width: 1000px;
+    height: 1px;
+    display: block;
+    margin-left: -300px;
+}
+
+.ToTopButton {
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+    background-color: rgb(7, 119, 73);
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+
+.home {
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.home-image {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.whoweare {
+    display: flex;
+    align-self: normal;
+    justify-content: center;
+
+}
+.home-text {
+    /* flex: 0 0 50%; */
+    color: black;
+    font-size: 15px;
+    /* max-width: 60%; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* padding: 0px 20px; */
+    
+}
+
+.footer-hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);  /* thinner, semi-transparent line */
+    width: 30%; 
+    margin: 0 auto;                    /* center horizontally */
+    padding: 0;
+    height: 0;
+}
+
+.dotted-hr {
+    display: block;
+    border: none;
+    border-bottom: 1px dotted #999;
+    margin: 0%;
+    width: 20%;
+}
