@@ -133,3 +133,21 @@ body {
     margin: 0%;
     width: 20%;
 }
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BC4400;
+}
+
+.about{
+    display: flex;
+}
+
+.statements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
