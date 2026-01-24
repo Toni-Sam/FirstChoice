@@ -11,13 +11,19 @@ body {
 .header {
     display: flex;
     flex-direction: row;
+    justify-self: center;
     justify-content: space-evenly;
     background-color: #BC4400;
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .links {
+    display: flex;
+    justify-content: center;
     color: white;
     text-decoration: none;
     font-weight: normal;
@@ -25,8 +31,10 @@ body {
 }
 
 .links:hover {
-    color: #15a16a;
+    background-color: #097e4f;
+    width: 90px;
 }
+
 
 .footer {
     display: flex;
@@ -94,6 +102,7 @@ body {
 }
 
 .home-image {
+    border-radius: 10%;
     width: 50%;
     height: auto;
     display: block;
@@ -150,4 +159,15 @@ body {
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
+}
+
+.frequently{
+    color: #BC4400;
+    display: flex;
+    padding-left: 30px;
+    font-size: 26px;
+}
+
+.inquiries{
+    padding: 100px;
 }
