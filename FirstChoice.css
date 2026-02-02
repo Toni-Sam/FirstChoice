@@ -12,8 +12,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-self: center;
+    justify-content: center;
     justify-content: space-evenly;
-    background-color: #BC4400;
+    background-color: #BD4400;
     height: 50px;
     line-height: 50px;
     width: 100%;
@@ -26,13 +27,13 @@ body {
     justify-content: center;
     color: white;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .links:hover {
-    background-color: #097e4f;
-    width: 90px;
+    color: #07774A;
 }
 
 
@@ -40,7 +41,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #BC4400;
+    background-color: rgb(189, 68, 0);
     height: auto;
     line-height: 70px;
 }
@@ -75,7 +76,7 @@ body {
 }
 
 .hr {
-    background-color: #BC4400;
+    background-color: #BD4400;
     border: none;
     width: 1000px;
     height: 1px;
@@ -87,7 +88,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-self: right;
-    background-color: rgb(7, 119, 73);
+    background-color: rgb(21, 161, 106);
     text-decoration: none;
     color: white;
     padding: 2px;
@@ -102,10 +103,10 @@ body {
 }
 
 .home-image {
-    border-radius: 10%;
-    width: 50%;
-    height: auto;
+    width: 70%;
+    height: 90vh;
     display: block;
+    justify-self: center;
 }
 
 .whoweare {
@@ -145,13 +146,15 @@ body {
 
 .welcome{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #BC4400;
+    color: #BD4400;
+    font-size: larger;
+    padding-left: 80px;
 }
 
 .about{
-    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 .statements{
@@ -159,10 +162,11 @@ body {
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
+    padding-top: 70px;
 }
 
 .frequently{
-    color: #BC4400;
+    color: #BD4400;
     display: flex;
     padding-left: 30px;
     font-size: 26px;
@@ -171,3 +175,9 @@ body {
 .inquiries{
     padding: 100px;
 }
+
+.statement-image{
+    width: 40%;
+    height: auto;
+}
+
