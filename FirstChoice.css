@@ -96,14 +96,14 @@ body {
 
 .home {
     display: flex;
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
     padding: 10px 0px;
 }
 
 .home-image {
-    width: 70%;
+    width: 45%;
     height: 90vh;
     display: block;
     justify-self: center;
@@ -180,4 +180,3 @@ body {
     width: 40%;
     height: auto;
 }
-
