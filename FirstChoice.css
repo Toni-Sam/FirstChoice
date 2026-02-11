@@ -1,7 +1,8 @@
 * {
     /* margin: 0;
     padding: 0; */
-    font-family: Roboto, sans-serif;
+    /* font-family: Roboto, sans-serif; */
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
     justify-self: center;
     justify-content: center;
     justify-content: space-evenly;
-    background-color: #BD4400;
+    background-color: rgb(189, 68, 0);
     height: 50px;
     line-height: 50px;
     width: 100%;
@@ -33,7 +34,7 @@ body {
 }
 
 .links:hover {
-    color: #07774A;
+    color: rgb(7, 119, 74);
 }
 
 
@@ -76,7 +77,7 @@ body {
 }
 
 .hr {
-    background-color: #BD4400;
+    background-color: rgb(189, 68, 0);
     border: none;
     width: 1000px;
     height: 1px;
@@ -88,10 +89,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-self: right;
-    background-color: rgb(21, 161, 106);
     text-decoration: none;
+    font-weight: bold;
     color: white;
-    padding: 2px;
+    padding: 4px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ToTopButton:hover {
+    color: rgb(4, 71, 44);
 }
 
 .home {
@@ -104,7 +111,9 @@ body {
 
 .home-image {
     width: 45%;
-    height: 90vh;
+    max-width: 45%;
+    height: auto;
+    /* height: 90vh; */
     display: block;
     justify-self: center;
 }
@@ -139,14 +148,19 @@ body {
 .dotted-hr {
     display: block;
     border: none;
-    border-bottom: 1px dotted #999;
-    margin: 0%;
-    width: 20%;
+    border-bottom: 2px solid #e8e8e8;
+    width: 30%;
+    margin: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .welcome{
     display: flex;
-    color: #BD4400;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(189, 68, 0);
     font-size: larger;
     padding-left: 80px;
 }
@@ -166,10 +180,13 @@ body {
 }
 
 .frequently{
-    color: #BD4400;
+    color: rgb(189, 68, 0);
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding-left: 30px;
     font-size: 26px;
+    
 }
 
 .inquiries{
@@ -179,4 +196,8 @@ body {
 .statement-image{
     width: 40%;
     height: auto;
+}
+
+.no-wrap {
+    white-space: nowrap;
 }

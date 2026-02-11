@@ -21,8 +21,11 @@ References:
 - Categorize Must-Have, Nice-to-Have features and Future Considerations to manage scope of project
 
 
-*- Add Line (border)
-
 - About Us page
 - FAQ page
 - Contact Us page
+
+Implement FAQ page - Like JustRite and Foodco Style
+
+
+
