@@ -26,6 +26,9 @@ References:
 - Contact Us page
 
 Implement FAQ page - Like JustRite and Foodco Style
+Make "Who we are" in Home Page Carousel
+Edit images in About Us page, they look blurry
+
 
 
 
