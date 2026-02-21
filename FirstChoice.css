@@ -124,16 +124,11 @@ body {
     justify-content: center;
 
 }
+
 .home-text {
-    /* flex: 0 0 50%; */
-    color: black;
-    font-size: 15px;
-    /* max-width: 60%; */
-    display: flex;
-    text-align: center;
-    align-items: center;
-    /* padding: 0px 20px; */
-    
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
 }
 
 .footer-hr {
@@ -165,19 +160,23 @@ body {
     padding-left: 80px;
 }
 
-.about{
-    display: block;
+.about {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
 }
 
-.statements{
+.statements {
     display: flex;
-    align-items: center;
-    justify-content: center;
     justify-content: space-evenly;
-    padding-top: 70px;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+    width: 100%;
 }
+
 
 .frequently{
     color: rgb(189, 68, 0);
@@ -193,10 +192,12 @@ body {
     padding: 100px;
 }
 
-.statement-image{
+.statement-image {
     width: 40%;
+    max-width: 500px;
     height: auto;
 }
+
 
 .no-wrap {
     white-space: nowrap;
@@ -204,6 +205,11 @@ body {
 
 .imagegallerycontainer{
     padding: 2rem;
+}
+
+.brandname{
+    width: 100%;
+    height: 35vh;
 }
 
 .slider-wrapper{
@@ -308,3 +314,210 @@ body {
 .faq-item.active .icon {
     transform: rotate(45deg);
 }
+
+
+
+
+@media (max-width: 1024px) {
+
+    .slider-wrapper {
+        width: 70%;
+    }
+
+    .home-image {
+        width: 60%;
+        max-width: 60%;
+    }
+
+    .statement-image {
+        width: 50%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 20px 0;
+    }
+
+    
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .header {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+        line-height: normal;
+    }
+
+    .links {
+        font-size: 14px;
+    }
+
+    /* HOME SECTION */
+    .home {
+        flex-direction: column;
+    }
+
+    .home-image {
+        width: 80%;
+        max-width: 80%;
+    }
+
+    /* ABOUT / STATEMENTS */
+    .statements {
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 30px;
+    }
+
+    .aboutus-image{
+        width: 95%;
+        max-width: 100%;
+    }
+
+    .values-image{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .statement-image {
+        width: 80%;
+    }
+
+    .statement-image {
+        width: 70%;
+    }
+
+    /* SLIDER */
+    .slider-wrapper {
+        width: 85%;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: normal;
+        padding: 30px 0;
+    }
+
+    .InformationandSupport {
+        align-items: center;
+    }
+
+    .ToTopButton {
+        justify-content: center;
+    }
+
+    /* FAQ */
+    .faq-container {
+        padding: 0 15px;
+    }
+
+    .brandname{
+        height: 30vh;
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .welcome {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .frequently {
+        padding-left: 0;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .inquiries {
+        padding: 40px 20px;
+    }
+
+    .slider-wrapper {
+        width: 95%;
+    }
+
+    .home-image {
+        width: 95%;
+        max-width: 95%;
+    }
+
+    .statement-image {
+        width: 90%;
+    }
+
+    .links {
+        font-size: 13px;
+    }
+
+    .brandname{
+        height: 24vh;
+        width: 100%;
+    }
+
+     .aboutus-image{
+        width: 95%;
+        max-width: 100%;
+    }
+
+    .values-image{
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 400px) {
+
+    .links {
+        font-size: 12px;
+    }
+
+    .faq-question {
+        font-size: 14px;
+    }
+
+    .faq-answer p {
+        font-size: 14px;
+    }
+
+    .welcome {
+        font-size: 18px;
+    }
+
+    .frequently {
+        font-size: 18px;
+    }
+
+     .brandname{
+        height: 19vh;
+        width: 100%;
+    }
+
+     .aboutus-image{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .values-image{
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
