@@ -19,7 +19,7 @@ function autoSlide() {
 }
 
 function startSlide() {
-    interval = setInterval(autoSlide, 6000);
+    interval = setInterval(autoSlide, 4000);
     console.log("Started");
 }
 
