@@ -330,7 +330,7 @@ body {
     }
 
     .statement-image {
-        width: 50%;
+        width: 47%;
     }
 
     .footer {
@@ -339,7 +339,21 @@ body {
         padding: 20px 0;
     }
 
-    
+    .brandname{
+        height: 30vh;
+        width: 100%;
+        max-width: 100%;
+    }
+
+       .aboutus-image{
+        width: 95%;
+        max-width: 100%;
+    }
+
+    .values-image{
+        width: 90%;
+        max-width: 100%;
+    }
 
 }
 
