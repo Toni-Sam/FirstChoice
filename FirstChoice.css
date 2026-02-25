@@ -116,6 +116,8 @@ body {
     /* height: 90vh; */
     display: block;
     justify-self: center;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
 }
 
 .whoweare {
@@ -196,6 +198,8 @@ body {
     width: 40%;
     max-width: 500px;
     height: auto;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.3);
+    border-radius: 0.5rem;
 }
 
 
@@ -566,22 +570,118 @@ body {
 }
 
 .products .card .box .price {
-    color: #f63e4e;
+    color: rgb(7, 119, 74);
     font-size: 20px;
     font-weight: bold;
 }
 
 .products .card .box .btn {
     font-size: 13px;
-    color: #f63e4e;
+    color: rgb(7, 119, 74);
     padding: 10px 18px;
     font-weight: 900;
-    border: 1px solid #f63e4e;
+    border: 1px solid rgb(7, 119, 74);
     border-radius: 20px;
 }
 
 .products .card .box .btn:hover {
     cursor: pointer;
-    background-color: #f63e4e;
+    background-color: rgb(7, 119, 74);
     color: white;
+}
+
+.ItemTitle {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+.ItemImage {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.ItemText {
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+
+.ItemPrice {
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+
+.ItemButton {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy-1 {
+    background: rgb(7, 119, 74);
+}
+
+.buy-2 {
+    background: rgb(7, 119, 74);
+}
+
+.buy-3 {
+    background: rgb(7, 119, 74);
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 45%;
+    }
+}
+
+@media (max-width: 750px) {
+    .content {
+        width: 100%;
+    }
 }

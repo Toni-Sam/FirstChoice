@@ -26,8 +26,6 @@ References:
 - Contact Us page
 
 Add more questions to FAQ page
-Make "Who we Are" picture in Home page have rounded corners probably with little shadow
-Make all pictures in AboutUs page have rounded corners probably with little shadow
 *Add picture of Directors for ContactUs page
 
 
