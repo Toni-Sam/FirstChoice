@@ -319,7 +319,45 @@ body {
     transform: rotate(45deg);
 }
 
+.social-icons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
 
+.social-icons a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* WhatsApp */
+.whatsapp{
+    background: #1fb355;
+}
+
+/* Instagram */
+.instagram{
+    background: #c9255c;
+}
+
+/* facebook */
+.facebook{
+    background: rgb(45, 45, 238);
+}
+
+/* Hover Effect */
+.social-icons a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
 
 @media (max-width: 1024px) {
