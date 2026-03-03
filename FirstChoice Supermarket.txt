@@ -26,8 +26,8 @@ References:
 - Contact Us page
 
 Add more questions to FAQ page
-*Add picture of Directors for ContactUs page
-
+ContactUs page similar to FoodCo ContactUs where users can fill form
+Mission and Vision as Text
 
 
 
