@@ -1,72 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="FirstChoice.css">
-    <link rel="icon" href="FC LOGO">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-    <title>ContactUs | First Choice Supermaket</title>
-</head>
-<body>
-    <div class="header"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="FirstChoice.css">
+        <link rel="icon" href="FC LOGO">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+        <title>ContactUs | First Choice Supermaket</title>
+    </head>
+    <body>
+        <nav class="header"> 
             <a href="index.html" class="links" target="_self" title="Home"> Home </a>
             <a href="Shop.html" class="links" target="_self" title="Shop"> Shop </a>
             <a href="FAQs.html" class="links" target="_self" title="FAQs"> FAQs </a>
             <a href="AboutUs.html" class="links" target="_self" title="About Us"> About Us</a>
             <a href="ContactUs.html" class="links" target="_self" title="Contact Us"> Contact Us</a>
+        </nav>
+
+        <main>
+        <img src="brandname.jpg" alt="image"  class="brandname">    
+
+        <div class="frequently">
+            <h1>Contact Us</h1>
         </div>
-
-    <img src="brandname.jpg" alt="image"  class="brandname">    
-
-    <div class="frequently">
-        <h1>Contact Us</h1>
-    </div>
     
-    <div class="inquiries">
-        <h1 style="color: #BD4400;">For inquiries, reach us via the contact details below:</h1>
-        <address class="contacts" style="display: flex; justify-content: space-between">
-             <div style="display: block;">
-                <h3>Head Office</h3>
-                <p>No. 2, Elewuro Street, Olorunda-Abaa Road, Akobo, Ibadan.</p></div>
-            <div>
-                <h3>Our Business Hours</h3>
-                <p>9:00am - 8:00pm</p>
-             </div>
-        </address>
+        <div class="inquiries">
+            <h1 style="color: #BD4400;">For inquiries, reach us via the contact details below:</h1>
+            <address class="contacts" style="display: flex; justify-content: space-between">
+                <div style="display: block;">
+                    <h3>Head Office</h3>
+                    <p>No. 2, Elewuro Street, Olorunda-Abaa Road, Akobo, Ibadan.</p></div>
+                <div>
+                    <h3>Our Business Hours</h3>
+                    <p>9:00am - 8:00pm</p>
+                </div>
+            </address>
 
-        <address class="info">
-            <h3>Contact Information</h3>
-            <p>Phone Number:</p>
-            <p>Email Address:</p>
-        </address>
+            <div class="contactandcontainer">
+                <address class="info">
+                    <h3>Contact Information</h3>
+                    <p><b>Phone Number:</b> </p>
+                    <p><b>Email Address:</b> firstchoicepharmacysupermarket@gmail.com</p>
+                </address>
 
-        <address class="info">
+                <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2> Get In Touch </h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="7f6d174e-c7e3-484a-a37a-bea2d9507e8e">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                    <button type="submit"> Send Message <img src="right-arrow (2).png"></button>
+                </form>
+        
+                </div>
+            </div>
+
+
+            <address class="info">
             <h3>Chat with us</h3>
-                <div class="social-icons" style="justify-content: left">
-    
-    <a href="https://wa.me/234XXXXXXXXXX" target="_blank" class="whatsapp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+            <div class="social-icons" style="justify-content: left">
+        
+            <a href="https://wa.me/234XXXXXXXXXX" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
 
-    <a href="https://instagram.com/firstchoice_ng" target="_blank" class="instagram">
-        <i class="fab fa-instagram"></i>
-    </a>
-    
-    <a href="https://facebook.com/First Choice Pharmacy and Supermarket" target="_blank" class="facebook">
-        <i class="fab fa-facebook"></i>
-    </a>
-           </div>
-        </address>
-    </div>
-    
+            <a href="https://instagram.com/firstchoice_ng" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            
+            <a href="https://facebook.com/First Choice Pharmacy and Supermarket" target="_blank" class="facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            </div>
+            </address>
+        </div>
+        </main>
 
-
+        <footer>
         <div class="footer">
             <div class="InformationandSupport">
                 <p style="color: white; font-size: 30px; font-weight: bold; line-height: 0;"> <span class="no-wrap"> About </span>Company </p>
-                <p style="color: white; font-size: 15px; display: flex; line-height: 1.2;"> At First Choice, we bring it all together! <br>From Supermaket to Eatery to Bakery and fresh farm produce, we've <br>got all your daily nneds covered in one <br>destination. We are here to make everyday <br>easier, brighter and full of care.</p>
+                <p style="color: white; font-size: 15px; display: flex; line-height: 1.2;"> At First Choice, we bring it all together! <br>From Supermaket to Eatery 
+                    to Bakery and fresh farm produce, we've <br>got all your daily needs covered in one <br>destination. We are here to make everyday <br>easier, 
+                    brighter and full of care.</p>
             </div>
 
             <div class="InformationandSupport"> 
@@ -93,29 +114,29 @@
             display: flex; flex-direction: column; margin-top: 80px; border: none; border-radius: 8px; text-decoration: none;">
                 <a href="#" id="backToTop" class="ToTopButton"> Top </a>
             </button>
-            
-            
         </div> 
 
         <div style="background-color: rgb(189, 68, 0);">
 
-                <div class="social-icons">
+        <div class="social-icons">
     
-    <a href="https://wa.me/234XXXXXXXXXX" target="_blank" class="whatsapp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+            <a href="https://wa.me/234XXXXXXXXXX" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
 
-    <a href="https://instagram.com/firstchoice_ng" target="_blank" class="instagram">
-        <i class="fab fa-instagram"></i>
-    </a>
+            <a href="https://instagram.com/firstchoice_ng" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
 
-    <a href="https://facebook.com/firstchoice_ng" target="_blank" class="facebook">
-        <i class="fab fa-facebook"></i>
-    </a>
+            <a href="https://facebook.com/firstchoice_ng" target="_blank" class="facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
         </div>
-            <hr class="dotted-hr"/>
-            <span style=" color: white; background-color: rgb(189, 68, 0); text-align: center; display: block; padding: 10px;">
-            Copyright © 2026 First Choice Supermarket. All Rights Reserved.</span>
+
+        <hr class="dotted-hr"/>
+        <span style=" color: white; background-color: rgb(189, 68, 0); text-align: center; display: block; padding: 10px;">
+        Copyright © 2026 First Choice Supermarket. All Rights Reserved.</span>
         </div>
-</body>
+        </footer>
+    </body>
 </html>

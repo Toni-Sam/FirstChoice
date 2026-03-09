@@ -25,9 +25,18 @@ References:
 - FAQ page
 - Contact Us page
 
-Add more questions to FAQ page
-ContactUs page similar to FoodCo ContactUs where users can fill form
-Mission and Vision as Text
+#38,900 - firstchoicesupermarket.ng
+#30,900 - firstchoicesupermarket.com.ng
+
+
+* Finish Shop Page
+
+- Make "Top" button at footer work better with animation
+- Add animations to buttons, button hover
+
+
+
+
 
 
 

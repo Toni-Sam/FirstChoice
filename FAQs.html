@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FAQs | First Choice Supermarket</title>
+        <link rel="icon" href="FC LOGO">
         <link rel="stylesheet" href="FirstChoice.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -11,14 +12,15 @@
 
     <body>
         <!-- HEADER -->
-        <div class="header"> 
-            <a href="index.html" class="links">Home</a>
-            <a href="Shop.html" class="links">Shop</a>
-            <a href="FAQs.html" class="links">FAQs</a>
-            <a href="AboutUs.html" class="links">About Us</a>
-            <a href="ContactUs.html" class="links">Contact Us</a>
-        </div>
+        <nav class="header"> 
+            <a href="index.html" class="links" target="_self" title="Home">Home</a>
+            <a href="Shop.html" class="links" target="_self" title="Shop">Shop</a>
+            <a href="FAQs.html" class="links" target="_self" title="FAQs">FAQs</a>
+            <a href="AboutUs.html" class="links" target="_self" title="About Us">About Us</a>
+            <a href="ContactUs.html" class="links" target="_self" title="Contact Us">Contact Us</a>
+        </nav>
 
+        <main>
         <img src="brandname.jpg" alt="image"  class="brandname">    
 
         <!-- PAGE TITLE -->
@@ -59,7 +61,7 @@
                 </div>
             </div>
 
-             <div class="faq-item">
+            <div class="faq-item">
                 <button class="faq-question">
                     What is your return policy?
                     <span class="icon">+</span>
@@ -80,13 +82,15 @@
             </div>
 
         </div>
+        </main>
 
+        <footer>
         <div class="footer">
             <div class="InformationandSupport">
                 <p style="color: white; font-size: 30px; font-weight: bold; line-height: 0;"> <span class="no-wrap"> About </span>Company </p>
                 <p style="color: white; font-size: 15px; display: flex; line-height: 1.2;"> At First Choice, we bring it all together! 
                 <br>From Supermaket to Eatery to Bakery and fresh farm produce,
-                we've <br>got all your daily nneds covered in one <br>destination. We are here to make everyday <br>easier, brighter and
+                we've <br>got all your daily needs covered in one <br>destination. We are here to make everyday <br>easier, brighter and
                 full of care.</p>
             </div>     
                 
@@ -118,26 +122,25 @@
         </div> 
 
         <div style="background-color: rgb(189, 68, 0);">
+            <div class="social-icons">
+            <a href="https://wa.me/234XXXXXXXXXX" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
 
-                <div class="social-icons">
-    
-    <a href="https://wa.me/234XXXXXXXXXX" target="_blank" class="whatsapp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <a href="https://instagram.com/firstchoice_ng" target="_blank" class="instagram">
-        <i class="fab fa-instagram"></i>
-    </a>
-    
-    <a href="https://facebook.com/First Choice Pharmacy and Supermarket" target="_blank" class="facebook">
-         <i class="fab fa-facebook"></i>
-    </a>
+            <a href="https://instagram.com/firstchoice_ng" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            
+            <a href="https://facebook.com/First Choice Pharmacy and Supermarket" target="_blank" class="facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
 
            </div>
             <hr class="dotted-hr"/>
             <span style=" color: white; background-color: rgb(189, 68, 0); text-align: center; display: block; padding: 10px;">
             Copyright © 2026 First Choice Supermarket. All Rights Reserved.</span>
         </div>
+        </footer>
     </body>
     
     <!-- JAVASCRIPT -->

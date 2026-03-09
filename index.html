@@ -12,23 +12,24 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="header"> 
-            <img src="">
+        <nav class="header"> 
             <a href="index.html" class="links" target="_self" title="Home"> Home </a>
             <a href="Shop.html" class="links" target="_self" title="Shop"> Shop </a>
             <a href="FAQs.html" class="links" target="_self" title="FAQs"> FAQs </a>
             <a href="AboutUs.html" class="links" target="_self" title="About Us"> About Us</a>
             <a href="ContactUs.html" class="links" target="_self" title="Contact Us"> Contact Us</a>
-        </div>
+        </nav>
+
 
         <!-- <img src="home1.jpg" alt="Main Image" title="FirstChoice Supermarket"
          style=" width: 80%; height: auto; display: flex; justify-self:center;"> -->
-
+        
+        <main>
         <img src="home1.jpg" alt="Main Image" title="FirstChoice Supermarket"
          style=" width: 100%; height: auto; display: block; max-width: 100%;">
 
         <div class="home">          
-            <img src="Who are we photo.jpg" alt="Home Image" title="FirstChoice Home"
+            <img src="Who are we photo.jpg" alt="Home Image" title="FirstChoice Home" loading="lazy"
             class="home-image">
             <!-- <img src="FLYER.jpg" alt="image" class="home-image"> -->
         </div>
@@ -36,10 +37,10 @@
         <section class="imagegallerycontainer">
             <div class="slider-wrapper">
                 <div class="slider">
-                    <img id="slide-1" src="FirstChoice Logo and BG2.jpg" alt="Default"/>
-                    <img id="slide-2" src="About us photo.png" alt="Who are We?"/>
-                    <img id="slide-3" src="Our Mission Photo.jpg" alt="Our Mission"/>
-                    <img id="slide-4" src="Our Vision photo.jpg" alt="Our Vision"/>
+                    <img id="slide-1" src="FirstChoice Logo and BG2.jpg" alt="Default" loading="lazy"/>
+                    <img id="slide-2" src="About us photo.png" alt="Who are We?" loading="lazy"/>
+                    <img id="slide-3" src="Our Mission Photo.jpg" alt="Our Mission" loading="lazy"/>
+                    <img id="slide-4" src="Our Vision photo.jpg" alt="Our Vision" loading="lazy"/>
                 </div>
                 <div class="slider-nav">
                     <a href="#slide-1"></a>
@@ -49,11 +50,15 @@
                 </div>
             </div>
         </section>
+        </main>
 
+        <footer>
         <div class="footer">
             <div class="InformationandSupport" style="display: block; justify-content: space-evenly; line-height: 0">
                 <p style="color: white; font-size: 30px; font-weight: bold;"> <span class="no-wrap"> About </span>Company </p>
-                <p style="color: white; font-size: 15px; display: flex; line-height: 1.2;"> At First Choice, we bring it all together! <br>From Supermaket to Eatery to Bakery and fresh farm produce, we've <br>got all your daily nneds covered in one <br>destination. We are here to make everyday <br>easier, brighter and full of care.</p>
+                <p style="color: white; font-size: 15px; display: flex; line-height: 1.2;"> At First Choice, we bring it all together! <br>From Supermaket to Eatery
+                to Bakery and fresh farm produce, we've <br>got all your daily needs covered in one <br>destination. We are here to make everyday <br>easier,
+                brighter and full of care.</p>
             </div>
             
             
@@ -106,10 +111,11 @@
         Copyright © 2026 First Choice Supermarket. All Rights Reserved.</span>
 
         </div>
-        
-    <script src="FirstChoice.js">
-        <div><button onClick="topFunction()" id="backToTop" title="To Top">Top</button></div>
-    </script>
+        </footer>
+
+        <script src="FirstChoice.js">
+            <div><button onClick="topFunction()" id="backToTop" title="To Top">Top</button></div>
+        </script>
     </body>
 
 </html>
