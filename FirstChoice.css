@@ -4,6 +4,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 100%;
     margin: auto;
@@ -31,12 +35,12 @@ body {
     font-weight: bold;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
+    transition: color 0.3s;
 }
 
 .links:hover {
     color: rgb(21, 161, 106);
 }
-
 
 .footer {
     display: flex;
@@ -86,6 +90,14 @@ body {
 }
 
 .ToTopButton {
+    transition: 0.3s;
+}
+
+.ToTopButton:hover {
+    transform: scale(1.05);
+}
+
+.ToTopText {
     display: flex;
     flex-direction: row;
     justify-self: right;
@@ -95,10 +107,12 @@ body {
     padding: 4px;
     text-align: center;
     font-size: 16px;
+    transition: 0.3s;
 }
 
-.ToTopButton:hover {
+.ToTopText:hover {
     color: rgb(4, 71, 44);
+    transform: scale(1.05);
 }
 
 .home {
@@ -112,9 +126,9 @@ body {
 .home-image {
     width: 45%;
     max-width: 45%;
-    height: 85vh;
+    height: auto;
     /* height: 90vh; */
-    display: flex;
+    display: block;
     justify-self: center;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 0.5rem;
@@ -424,7 +438,7 @@ body {
 }
 
 .contact-inputs {
-    width: 400px;
+    width: 350px;
     height: 30px;
     padding-left: 25px;
     font-weight: 500;
@@ -464,6 +478,14 @@ body {
 
 .contact-left button img {
     height: 20px;
+}
+
+.SendMessageButton {
+    transition: 0.3s;
+}
+
+.SendMessageButton:hover {
+    transform: scale(1.05);
 }
 
 /* Responsive Contact Form */
@@ -650,7 +672,7 @@ body {
         align-items: center;
     }
 
-    .ToTopButton {
+    .ToTopText {
         justify-content: center;
     }
 
@@ -691,7 +713,7 @@ body {
     .home-image {
         width: 95%;
         max-width: 95%;
-        height: 75vh;
+        /* height: 75vh; */
     }
 
     .statement-image {
