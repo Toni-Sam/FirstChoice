@@ -1,6 +1,7 @@
 * {
     /* margin: 0;
     padding: 0; */
+    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -883,6 +884,90 @@ body {
         max-width: 100%;
     }
 
+    body {
+        box-sizing: border-box;
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .ourvalues {
+        flex-direction: column;  /* Stack vertically on small screens */
+        gap: 15px;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .setofvaluestext {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    .ourvaluestext {
+        font-size: 16px;  /* Reduce from 20px */
+        line-height: 1.4;
+    }
+
+    .ourvaluesheadertext {
+        font-size: 24px;  /* Reduce from 40px */
+        padding: 0 10px;
+    }
+
+    .welcome {
+        padding-left: 10px;  /* Reduce from 80px */
+        padding-right: 10px;
+        font-size: 16px;  /* Add explicit sizing */
+    }
+
+    .about {
+        padding: 20px 10px;  /* Reduce from 40px 20px */
+    }
+
+    .statements {
+        gap: 20px;
+        padding: 20px 10px;
+    }
+    .info {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .info p, 
+    .info h3 {
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .contacts {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+    
+    .businesshours {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    .inquiries {
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .headofficeandform {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
 }
 
 
