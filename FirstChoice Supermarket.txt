@@ -31,9 +31,6 @@ References:
 
 * Finish Shop Page
 
-- Make "Top" button at footer work better with animation
-- Add animations to buttons, button hover
-
 
 
 
